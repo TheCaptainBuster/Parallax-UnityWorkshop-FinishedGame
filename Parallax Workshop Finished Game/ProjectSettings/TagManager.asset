@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Obstacle
+  - Enemy
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -41,6 +43,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 61267767
+    locked: 0
+  - name: Player
+    uniqueID: 1549203853
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1603851625
     locked: 0
   m_RenderingLayers:
   - Default
